@@ -41,56 +41,38 @@
     background-color: black;
     color: white;
     padding: 24px 72px;
-    /* display: flex;
-    align-items: center;  */
-
   }
 
   #hero{
-        /* makes my container a flexbox container*/
         display: flex;
-
-        /* changes the main and cross axis */
         flex-direction: column;
-    
         flex-wrap:wrap;
-    
-        /* align my items along the main axis*/
         justify-content: space-evenly;
-    
-        /* cross axis alignment */
-    
         align-items: center
-    
   }
 
   #headers{
     display: flex;
     align-items: center;
     flex-direction: column;
-
   }
 
   input{
     display: flex;
     align-items: center;
     flex-direction: column;
-
-
-
     }
+
   #trending{
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 10px
-    
   }
+
   h1,
   h2 {
     text-align: center;
-    
-
   }
   
   h1 {
@@ -115,18 +97,13 @@
   main {
     background-color: white;
     padding: 32px 72px;
-            /* makes my container a flexbox container*/
-            display: flex;
+    display: flex;
+    gap: 28px;        
+    justify-content: center;
+    flex-wrap: wrap;
 
-            /* changes the main and cross axis */
-            flex-direction: row;
-        
-        
-            /* align my items along the main axis*/
-            justify-content: center;
-    
   }
-  
+
   nav button {
     background-color: #ea4c89;
     border-radius: 8px;
@@ -145,6 +122,8 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
@@ -154,15 +133,9 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
-        /* makes my container a flexbox container*/
-        display: flex;
-
-        /* changes the main and cross axis */
-        flex-direction: row;
-    
-    
-        /* align my items along the main axis*/
-        justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
         
   }
   
